@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 黑白极简：无 ActionBar，白底黑字 -->
+    <style name="Theme.Ansylab" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/ink</item>
+        <item name="colorPrimaryVariant">@color/ink</item>
+        <item name="colorOnPrimary">@color/paper</item>
+        <item name="colorSecondary">@color/ink</item>
+        <item name="colorSecondaryVariant">@color/ink</item>
+        <item name="colorOnSecondary">@color/paper</item>
+
+        <item name="android:windowBackground">@color/paper</item>
+        <item name="android:colorBackground">@color/paper</item>
+        <item name="android:textColorPrimary">@color/ink</item>
+        <item name="android:textColorSecondary">@color/ink_secondary</item>
+        <item name="android:statusBarColor">@color/paper</item>
+        <item name="android:navigationBarColor">@color/paper</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+        <!--
+            Android 15 (API 35) 对 targetSdk 35 强制 edge-to-edge：内容会画到
+            状态栏下面，表现为画面顶部被盖掉一条。
+            setDecorFitsSystemWindows(true) 在强制模式下无效，要用这个官方退出开关。
+        -->
+        <item name="android:windowOptOutEdgeToEdgeEnforcement" tools:targetApi="35">true</item>
+    </style>
+</resources>

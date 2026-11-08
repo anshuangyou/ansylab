@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 黑白极简配色：纸白底 + 墨黑线条，只有一条极淡的分隔线 -->
+<resources>
+    <color name="paper">#FFFFFFFF</color>
+    <color name="ink">#FF111111</color>
+    <color name="ink_secondary">#FF6B6B6B</color>
+    <color name="ink_disabled">#FFBDBDBD</color>
+    <color name="line">#FFE6E6E6</color>
+    <color name="surface">#FFFAFAFA</color>
+</resources>

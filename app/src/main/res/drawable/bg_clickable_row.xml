@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 可点击卡片：按下有灰度反馈（普通按钮/列表项共用） -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#22000000">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/paper" />
+            <stroke android:width="1dp" android:color="@color/line" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+</ripple>

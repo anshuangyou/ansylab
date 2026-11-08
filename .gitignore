@@ -1,0 +1,35 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Python 临时文件
+__pycache__/
+*.pyc
+# 本地临时目录
+/.tmp
+# 截图
+/shot-*.png
+
+# 签名密钥（不要提交）
+/keystore/
+# 临时脚本与示例源码
+/.agent/
+# 发布包走 GitHub Releases，不提交仓库（单文件 >100MB）
+/*.apk
+
+# IDE / Kotlin 缓存
+/.kotlin/
+/.idea/

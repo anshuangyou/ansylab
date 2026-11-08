@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AnsyLab</string>
+
+    <!-- Bottom navigation -->
+    <string name="tab_apps">Apps</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Home -->
+    <string name="import_app">Import</string>
+    <string name="empty_apps_title">No apps yet</string>
+    <string name="empty_apps_desc">Tap + in the top right to import one</string>
+    <string name="app_icon">App icon</string>
+    <string name="remove_app">Remove app</string>
+
+    <string name="import_folder">Import project folder</string>
+    <string name="import_zip">Import project archive</string>
+    <string name="no_py_in_folder">No .py file in the folder</string>
+    <string name="unzip_failed">Unzip failed: %1$s</string>
+    <string name="no_app_in_zip">No usable program file in the archive</string>
+    <string name="import_failed">Import failed: %1$s</string>
+    <string name="imported">Imported %1$s</string>
+    <string name="remove_title">Remove "%1$s"?</string>
+    <string name="remove_message">This deletes the program folder along with its scripts and models.</string>
+    <string name="cancel">Cancel</string>
+    <string name="remove">Remove</string>
+    <string name="removed">Removed %1$s</string>
+    <string name="remove_failed">Failed to remove</string>
+
+    <!-- Program page -->
+    <string name="back">Back</string>
+    <string name="display_area">Display</string>
+    <string name="display_hint">Frames from cv2.imshow show up here</string>
+    <string name="widgets">Widgets</string>
+    <string name="no_widgets">This program has no widgets</string>
+    <string name="program">Program</string>
+    <string name="empty_value">(empty)</string>
+    <string name="please_choose">Select</string>
+    <string name="joystick_left">L %1$s/%2$s</string>
+    <string name="joystick_right">R %1$s/%2$s</string>
+
+    <!-- Settings -->
+
+    <string name="group_run">Runtime</string>
+    <string name="group_web">Web control</string>
+    <string name="group_about">About</string>
+    <string name="group_this_device">Device</string>
+    <string name="group_camera">Camera</string>
+    <string name="group_system">System</string>
+    <string name="group_memory">Memory</string>
+    <string name="group_storage">Storage</string>
+
+    <string name="language">Language</string>
+    <string name="language_zh">中文</string>
+    <string name="language_en">English</string>
+
+    <string name="display_scale">Display scaling</string>
+    <string name="scale_fit">Fit</string>
+    <string name="scale_crop">Crop to fill</string>
+    <string name="scale_stretch">Stretch to fill</string>
+
+    <string name="camera">Camera</string>
+    <string name="not_found">Not found</string>
+    <string name="about_app">App</string>
+    <string name="version">Version</string>
+    <string name="package_name">Package</string>
+    <string name="run_mode">Runtime</string>
+    <string name="hexagon_arch">Hexagon arch</string>
+    <string name="soc_model">SoC model</string>
+    <string name="fp16">fp16 execution</string>
+    <string name="device">Device</string>
+    <string name="chip">Chip</string>
+    <string name="system">System</string>
+    <string name="mem_total">Total memory</string>
+    <string name="mem_used">Used memory</string>
+    <string name="mem_avail">Available memory</string>
+    <string name="store_total">Total storage</string>
+    <string name="store_free">Free storage</string>
+    <string name="store_used">Used storage</string>
+    <string name="data_usage">Data dir usage</string>
+    <string name="data_dir">Data directory</string>
+    <string name="data_dir_clip">AnsyLab data directory</string>
+    <string name="data_dir_copied">Data directory copied</string>
+
+    <string name="web_control">Web control</string>
+    <string name="web_password_enable">Require password</string>
+    <string name="web_password_off_hint">Password off — anyone on the network can access</string>
+    <string name="web_password">Password</string>
+    <string name="off">Off</string>
+    <string name="web_address">Address</string>
+    <string name="not_enabled">Disabled</string>
+    <string name="web_enabled_title">Web control is on</string>
+    <string name="got_it">Got it</string>
+    <string name="change_password">Change password</string>
+    <string name="save">Save</string>
+    <string name="password_empty">Password cannot be empty</string>
+    <string name="password_updated">Password updated — connected browsers must log in again</string>
+    <string name="ok">OK</string>
+
+    <string name="logs">Logs</string>
+    <string name="logs_desc">View runtime logs</string>
+    <string name="log_refresh">Refresh</string>
+    <string name="log_copy">Copy</string>
+    <string name="log_clear">Clear</string>
+    <string name="log_copied">Log copied</string>
+    <string name="log_clear_title">Clear log</string>
+    <string name="log_clear_message">Clear %1$s?</string>
+    <string name="log_missing">(file not created yet)</string>
+    <string name="log_read_failed">Failed to read: %1$s</string>
+    <string name="crash_title">Last session crashed</string>
+    <string name="crash_view">View log</string>
+    <string name="crash_dismiss">Dismiss</string>
+    <string name="crash_empty">(no details)</string>
+    <string name="log_loading">Loading…</string>
+    <string name="joystick_value">x=%1$+.2f  y=%2$+.2f</string>
+</resources>

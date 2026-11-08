@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AnsyLab</string>
+
+    <!-- 底部导航 -->
+    <string name="tab_apps">应用</string>
+    <string name="tab_settings">设置</string>
+
+    <!-- 主页 -->
+    <string name="import_app">导入</string>
+    <string name="empty_apps_title">还没有程序</string>
+    <string name="empty_apps_desc">点右上角 + 导入程序</string>
+    <string name="app_icon">程序图标</string>
+    <string name="remove_app">卸载程序</string>
+
+    <string name="import_folder">导入项目文件夹</string>
+    <string name="import_zip">导入项目压缩包</string>
+    <string name="no_py_in_folder">文件夹里没有 .py</string>
+    <string name="unzip_failed">解压失败: %1$s</string>
+    <string name="no_app_in_zip">压缩包里没有可用的程序文件</string>
+    <string name="import_failed">导入失败：%1$s</string>
+    <string name="imported">已导入 %1$s</string>
+    <string name="remove_title">卸载「%1$s」？</string>
+    <string name="remove_message">会删除这个程序文件夹及其中的脚本和模型。</string>
+    <string name="cancel">取消</string>
+    <string name="remove">卸载</string>
+    <string name="removed">已卸载 %1$s</string>
+    <string name="remove_failed">删除失败</string>
+
+    <!-- 程序页 -->
+    <string name="back">返回</string>
+    <string name="display_area">显示区</string>
+    <string name="display_hint">运行后，cv2.imshow 的画面显示在这里</string>
+    <string name="widgets">控件</string>
+    <string name="no_widgets">该程序没有控件</string>
+    <string name="program">程序</string>
+    <string name="empty_value">（空）</string>
+    <string name="please_choose">请选择</string>
+    <string name="joystick_left">左 %1$s/%2$s</string>
+    <string name="joystick_right">右 %1$s/%2$s</string>
+
+    <!-- 设置 -->
+
+    <string name="group_run">运行</string>
+    <string name="group_web">网页控制</string>
+    <string name="group_about">关于</string>
+    <string name="group_this_device">本机</string>
+    <string name="group_camera">摄像头</string>
+    <string name="group_system">系统</string>
+    <string name="group_memory">内存</string>
+    <string name="group_storage">存储</string>
+
+    <string name="language">语言</string>
+    <string name="language_zh">中文</string>
+    <string name="language_en">English</string>
+
+    <string name="display_scale">画面缩放</string>
+    <string name="scale_fit">等比留边</string>
+    <string name="scale_crop">裁切填满</string>
+    <string name="scale_stretch">拉伸填满</string>
+
+    <string name="camera">摄像头</string>
+    <string name="not_found">没有找到</string>
+    <string name="about_app">应用</string>
+    <string name="version">版本</string>
+    <string name="package_name">包名</string>
+    <string name="run_mode">运行方式</string>
+    <string name="hexagon_arch">Hexagon 架构</string>
+    <string name="soc_model">SoC 型号</string>
+    <string name="fp16">fp16 执行</string>
+    <string name="device">设备</string>
+    <string name="chip">芯片</string>
+    <string name="system">系统</string>
+    <string name="mem_total">总内存</string>
+    <string name="mem_used">已用内存</string>
+    <string name="mem_avail">可用内存</string>
+    <string name="store_total">总存储</string>
+    <string name="store_free">可用存储</string>
+    <string name="store_used">已用存储</string>
+    <string name="data_usage">数据目录占用</string>
+    <string name="data_dir">数据目录</string>
+    <string name="data_dir_clip">AnsyLab 数据目录</string>
+    <string name="data_dir_copied">已复制数据目录</string>
+
+    <string name="web_control">网页控制</string>
+    <string name="web_password_enable">启用密码</string>
+    <string name="web_password_off_hint">已关闭密码，任何人可直接访问</string>
+    <string name="web_password">访问密码</string>
+    <string name="off">已关闭</string>
+    <string name="web_address">访问地址</string>
+    <string name="not_enabled">未开启</string>
+    <string name="web_enabled_title">网页控制已开启</string>
+    <string name="got_it">知道了</string>
+    <string name="change_password">修改访问密码</string>
+    <string name="save">保存</string>
+    <string name="password_empty">密码不能为空</string>
+    <string name="password_updated">密码已更新，已连接的浏览器需重新登录</string>
+    <string name="ok">确定</string>
+
+    <string name="logs">日志</string>
+    <string name="logs_desc">查看运行日志</string>
+    <string name="log_refresh">刷新</string>
+    <string name="log_copy">复制</string>
+    <string name="log_clear">清空</string>
+    <string name="log_copied">日志已复制</string>
+    <string name="log_clear_title">清空日志</string>
+    <string name="log_clear_message">确定清空 %1$s？</string>
+    <string name="log_missing">（文件还不存在）</string>
+    <string name="log_read_failed">读取失败：%1$s</string>
+    <string name="crash_title">上次异常退出</string>
+    <string name="crash_view">查看日志</string>
+    <string name="crash_dismiss">忽略</string>
+    <string name="crash_empty">（没有详细信息）</string>
+    <string name="log_loading">读取中…</string>
+    <string name="joystick_value">x=%1$+.2f  y=%2$+.2f</string>
+</resources>

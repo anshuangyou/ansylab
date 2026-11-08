@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/appCell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="14dp">
+
+        <ImageView
+            android:id="@+id/appIcon"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:contentDescription="@string/app_icon"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_app_default" />
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:paddingStart="2dp"
+            android:paddingEnd="2dp"
+            android:textColor="@color/ink"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <!-- 长按 5 秒后出现的卸载角标 -->
+    <ImageView
+        android:id="@+id/removeBadge"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/bg_badge"
+        android:contentDescription="@string/remove_app"
+        android:padding="5dp"
+        android:src="@drawable/ic_close"
+        android:visibility="gone" />
+</FrameLayout>
